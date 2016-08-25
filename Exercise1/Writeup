@@ -1,0 +1,41 @@
+Exercise 1
+----------
+
+Welcome to the first actual exercise!  If you've skipped Exercise 0 
+you may have some troubles setting up this and future exercises.
+
+The purpose of this exercise is to wire an LED to the Raspberry Pi,
+and program it to flash once per second.
+
+---------
+Vocab
+---------
+
+LED - Light Emitting Diode.  A fancy, tiny light.
+
+Current - Synonym for the flow of electrical energy. 
+
+Resistor - Used to resist current from power sources.
+
+Lead - The wires that electrical components have, the shorter one is 
+       negative and the longer one is positive, for LEDS.
+
+--------
+Hints
+--------
+
+1) Use the 'time' module.  The 'sleep()' method may be useful.
+
+2) Wire the positive lead of the LED on the same row on the breadboard as 
+   power from the Pi,and the negative lead on the same line as the ground 
+   from the Pi.
+
+3) Use 'while True:' to loop for inifinity.
+
+4) Rpio has 'HIGH' and 'LOW' to send on/off signals.
+
+5) 'RPIO.setup' can take 3 arguments, but we only need 2 for this case.
+   It can be used as follows: gpio.setup(<pin number>, RPIO.OUT)
+
+6) To turn an LED on you should use RPIO.output(<pin number>, False)
+   to turn an LED off, or RPIO.output(<pin number>, True) to turn it on.

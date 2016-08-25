@@ -1,0 +1,15 @@
+Exercise5
+---------
+
+In this exercise you should be able to turn two LEDS off using two
+buttons.  This exercise is much like the previous, except one
+button controls two of the LEDS, and the other button controls the
+other two.  So either zero lights, two lights, or four lights can be
+on.
+
+---------
+Bonus
+---------
+Have each button turn the LEDS that they control on and off,
+alternatingly.  This means that 2 lights should be on at a time.
+No more or less.  Good luck!

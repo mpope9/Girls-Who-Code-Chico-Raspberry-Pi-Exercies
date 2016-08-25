@@ -1,0 +1,36 @@
+Exercise 2
+-----------
+
+In this exercise you are going to use some of the same ideas 
+that were used in the last exercise, but you are going to add
+a button to this one.  Everytime the button is clicked then the 
+LED should turn on or off.
+
+-----------
+Hints
+-----------
+
+0) This is not a hint, do this.  Make 2 variables, 'inputPin' and
+   'outputPin', and assign them the pin numbers from the Pi.  
+   This will make you very less confused as you work!!
+
+1) Use RPIO.input(<pin variable you made above>) to get the status 
+   of an input or output pin!  Assigning it to a variable and
+   checking the variable is probably an easy way to do this.
+
+2) Look at the configuaration of your LED, and place the button in
+   the same direction!  Remember, Long end is positive, Short end 
+   is negative.
+
+3) You can setup input pins the same way as you can setup output!
+   Use 'pull_up_down=rpio.PUD_UP' as a third argument.  You
+   also need to use the rpio.IN argument.
+
+4) You dont need to use 'time' like you did in your last exercise.
+
+----------
+Vocab
+----------
+
+Pull Up/Down - The state of the button.
+

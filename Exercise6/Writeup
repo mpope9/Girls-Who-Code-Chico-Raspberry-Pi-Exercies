@@ -1,0 +1,25 @@
+Exercise 6
+-----------
+
+This exercise may be a little bit trickier.  The purpose of this one
+is to create a pattern of clicks on 2 buttons to light an LED.
+Think of your pattern as a two digit lock.
+
+-----------
+Hints
+-----------
+
+1) I used a list to store the pattern that you want the user to inpupt,
+   and another seperate array to store the user's input.
+
+2) The method 'append()' for lists will be very helpful for this exercise.
+   This method is how to add elements to a list.
+
+3) You can compare lists just like normal variables in Python.
+
+----------
+BONUS
+----------
+
+Add a way to restart the guess, so the user can guess again.  'clear()' from
+the list module will be helpful.

@@ -1,0 +1,20 @@
+Exercise 3
+----------
+
+In this exercise you should be able to turn two leds on and off
+using one button.  So when one is on, the other is off.
+
+Keep this one simple, there is not much more needed than the 
+previous exercise!
+
+----------
+Hints
+----------
+
+1) You are going to need more than one outputPin!
+
+2) gpio.setup can take a third argument for outputs, just like 
+   it does for inputs!  Use 'inital=<True or False>' to 
+   specify if the LED should start as on or off.
+
+

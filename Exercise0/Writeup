@@ -1,0 +1,21 @@
+Exercise 0
+-----------
+
+This exercise shows the basic things needed to use the Raspberry Pi.  
+What is included is how to import the needed module in python, how 
+to use the module, and how to set up the GPIO ports for use.
+
+There is nothing to do, but this is a good place to reference if you
+get stuck with later modules!
+
+See the attached file, and use it as a "boilerplate" for later code.
+
+-------------
+Vocab
+-------------
+
+Module - Objects and methods that someone else wrote.
+
+GPIO - It stands for "General Purpose Input Output" pins.  They read
+       and send electrical signals.  You can damage the Pi through these
+       pins, so be careful!

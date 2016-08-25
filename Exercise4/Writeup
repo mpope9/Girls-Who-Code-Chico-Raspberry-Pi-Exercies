@@ -1,0 +1,18 @@
+Exercise 4
+----------
+
+In this exercise you are to do something similar to the last one.
+Go ahead and hook 4 four LEDs to the pi, and one button.  When
+the button is pressed either the lights 1 and 3 should illuminate
+or lights 2 and 4 should illuminate.  When pressed again the pair of
+lights that are lit should alternate.
+
+--------
+Hints
+--------
+
+1)  Use VARIABLES FOR YOUR PIN NUMBERS!!  You will get lost if you
+    do not use this.
+
+2)  Refer to previous exercies for this one, nothing is added but
+    complexity.
